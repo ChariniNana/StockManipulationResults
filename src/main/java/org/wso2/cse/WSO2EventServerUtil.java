@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2016, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
  *
@@ -17,6 +16,8 @@
  * under the License.
  */
 
+package org.wso2.cse;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -34,9 +35,9 @@ import org.wso2.carbon.databridge.commons.utils.EventDefinitionConverterUtils;
 public class WSO2EventServerUtil {
     private static Log log = LogFactory.getLog(StockManipulationResults.class);
 
-    private static File securityFile = new File("src" + File.separator + "main" + File.separator + "resources");
+    private static File securityFile = new File("");
     private static String configDirectoryPath = ".." + File.separator + ".." + File.separator + ".." + File.separator + "repository" + File.separator + "deployment" + File.separator + "server" + File.separator + "eventstreams";
-    private static String DirectoryPath = "src" + File.separator + "main" + File.separator + "streams" + File.separator + "sampleNumber";
+    private static String DirectoryPath = "streams" + File.separator + "sampleNumber";
 
 
     public static void setKeyStoreParams() {
@@ -45,9 +46,9 @@ public class WSO2EventServerUtil {
         System.setProperty("Security.KeyStore.Password", "wso2carbon");
 
     }
-
+    
     static String getDataBridgeConfigPath() {
-        File filePath = new File("src" + File.separator + "main" + File.separator + "resources");
+        File filePath = new File("");
         return filePath.getAbsolutePath() + File.separator + "data-bridge-config.xml";
     }
 

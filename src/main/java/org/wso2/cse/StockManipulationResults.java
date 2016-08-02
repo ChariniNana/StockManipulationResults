@@ -1,4 +1,3 @@
-
  /*
  * Copyright (c) 2016, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
  *
@@ -14,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package org.wso2.cse;
 
  import java.io.File;
  import java.io.FileWriter;
@@ -161,8 +161,7 @@
                  String eventName;
                  String path;
                  File f;
-                 Object [] payLoad;
-
+                 Object [] payLoad;                 
                  for (Event event:eventList) {
                      eventName=event.getStreamId();
                      switch (eventName) {
