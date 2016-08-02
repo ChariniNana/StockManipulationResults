@@ -21,7 +21,8 @@ package org.wso2.cse;
  import java.util.List;
 
  import org.apache.commons.io.input.ReversedLinesFileReader;
- import org.apache.log4j.Logger;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
  import org.wso2.carbon.databridge.commons.Credentials;
  import org.wso2.carbon.databridge.commons.Event;
  import org.wso2.carbon.databridge.commons.StreamDefinition;
@@ -51,7 +52,8 @@ package org.wso2.cse;
      private static File dir;
 
      public static void main(String[] args) throws DataBridgeException, StreamDefinitionStoreException, IOException {
-         resultsHomePath = common.getCanonicalPath();
+    	 BasicConfigurator.configure(); 
+    	 resultsHomePath = common.getCanonicalPath();
          resultsFolderNames = new File(resultsHomePath+File.separator+"ExecutionDetails.csv");
          resultsHomePathPT = commonPT.getCanonicalPath();
          resultsFileNamesPT = new File(resultsHomePathPT+File.separator+"ExecutionDetails.csv");
