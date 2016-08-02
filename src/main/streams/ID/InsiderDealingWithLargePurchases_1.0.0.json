@@ -1,0 +1,44 @@
+{
+  "name": "InsiderDealingWithLargePurchases",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "TRADE_DATE",
+      "type": "STRING"
+    },
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "TOTAL_QUANTITY_PER_BUYER",
+      "type": "LONG"
+    },
+    {
+      "name": "TOTAL_QUANTITY_PER_SECURITY",
+      "type": "LONG"
+    },
+    {
+      "name": "ANNOUNCEMENT_ID",
+      "type": "STRING"
+    },
+    {
+      "name": "SHORT_DESC",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TYPE",
+      "type": "STRING"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "FrontRunners",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "DATE_OF_LARGE_SALE",
+      "type": "STRING"
+    },
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "SUSPICIOUS_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "AVG_PURCHASE_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "AVG_SALE_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "TOT_BUY_QTY",
+      "type": "LONG"
+    },
+    {
+      "name": "TOT_SELL_QTY",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "BUY_VALUE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "SELL_VALUE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "NO_OF_DAYS",
+      "type": "STRING"
+    }
+  ]
+}

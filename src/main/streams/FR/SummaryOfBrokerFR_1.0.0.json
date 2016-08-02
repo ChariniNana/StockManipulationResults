@@ -1,0 +1,48 @@
+{
+  "name": "SummaryOfBrokerFR",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "TOTAL_BUY_QTY",
+      "type": "LONG"
+    },
+    {
+      "name": "AVG_BUY_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FR_TRAN_REF_NO",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_QTY",
+      "type": "INT"
+    },
+    {
+      "name": "SELL_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FR_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "BROKER",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_VALUE",
+      "type": "DOUBLE"
+    }
+  ]
+}

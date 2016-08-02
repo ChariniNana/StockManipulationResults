@@ -1,0 +1,40 @@
+{
+  "name": "PriceGrowthContribution",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "TRAN_REF_NO",
+      "type": "STRING"
+    },
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "PRICE_BEFORE_INCREMENT",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "PRICE_AFTER_INCREMENT",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "PRICE_GROWTH_CONTRIBUTION",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "UNIX_TIME",
+      "type": "LONG"
+    },
+    {
+      "name": "PUMP_DATE",
+      "type": "STRING"
+    }
+  ]
+}

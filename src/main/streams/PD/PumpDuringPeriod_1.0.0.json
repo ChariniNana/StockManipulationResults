@@ -1,0 +1,36 @@
+{
+  "name": "PumpDuringPeriod",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "INCREMENTS_PER_SECURITY",
+      "type": "LONG"
+    },
+    {
+      "name": "INCREMENTS_PER_BUYER",
+      "type": "LONG"
+    },
+    {
+      "name": "AVG_PRICE_GROWTH_CONTRIBUTION",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FIRST_PUMP_TIME",
+      "type": "LONG"
+    },
+    {
+      "name": "LAST_DATE_CONSIDERED",
+      "type": "STRING"
+    }
+  ]
+}

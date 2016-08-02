@@ -1,0 +1,52 @@
+{
+  "name": "PurchaseFrequency",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "TOTAL_BUY_QTY_PER_DURATION",
+      "type": "LONG"
+    },
+    {
+      "name": "TOTAL_BUY_QTY_PER_PAST_MONTHS",
+      "type": "LONG"
+    },
+    {
+      "name": "BUY_FREQUENCY",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "AVG_PURCHASE_PRICE_PER_DURATION",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "AVG_PURCHASE_PRICE_PER_PAST_MONTHS",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "ANNOUNCEMENT_ID",
+      "type": "STRING"
+    },
+    {
+      "name": "SHORT_DESC",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TYPE",
+      "type": "STRING"
+    }
+  ]
+}

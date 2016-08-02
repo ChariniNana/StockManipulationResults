@@ -1,0 +1,60 @@
+{
+  "name": "AlertBrokerFR",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "INITIAL_PURCHASE_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "INITIAL_TRAN_REF_NO",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_QTY",
+      "type": "INT"
+    },
+    {
+      "name": "BUY_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FR_TRAN_REF_NO",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_QTY",
+      "type": "INT"
+    },
+    {
+      "name": "SELL_PRICE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FR_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "BROKER",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_VALUE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "FR_UNIX_TIME",
+      "type": "LONG"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "SaleFrequency",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "TOTAL_SELL_QTY_PER_DURATION",
+      "type": "LONG"
+    },
+    {
+      "name": "TOTAL_SELL_QTY_PER_PAST_MONTHS",
+      "type": "LONG"
+    },
+    {
+      "name": "SELL_FREQUENCY",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "AVG_SALE_PRICE_PER_DURATION",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "AVG_SALE_PRICE_PER_PAST_MONTHS",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "ANNOUNCEMENT_ID",
+      "type": "STRING"
+    },
+    {
+      "name": "SHORT_DESC",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TIME",
+      "type": "STRING"
+    },
+    {
+      "name": "ANNOUNCEMENT_TYPE",
+      "type": "STRING"
+    }
+  ]
+}

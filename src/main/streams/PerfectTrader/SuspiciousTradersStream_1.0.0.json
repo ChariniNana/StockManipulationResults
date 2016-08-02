@@ -1,0 +1,56 @@
+{
+  "name": "SuspiciousTradersStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "DATE",
+      "type": "STRING"
+    },
+    {
+      "name": "TOTAL_BUY_QTY",
+      "type": "LONG"
+    },
+    {
+      "name": "TOTAL_SELL_QTY",
+      "type": "LONG"
+    },
+    {
+      "name": "TOTAL_BUY_VALUE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "TOTAL_SELL_VALUE",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "START_DATE",
+      "type": "STRING"
+    },
+    {
+      "name": "PORTFOLIO",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "ANNUAL_PROFIT_RATIO",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "PT_ANNUAL_PROFIT_RATIO",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "PROFIT_RATIO_WITH_PT",
+      "type": "DOUBLE"
+    }
+  ]
+}

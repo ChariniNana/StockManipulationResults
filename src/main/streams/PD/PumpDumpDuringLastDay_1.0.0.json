@@ -1,0 +1,44 @@
+{
+  "name": "PumpDumpDuringLastDay",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "PUMP_DUMP_DATE",
+      "type": "STRING"
+    },
+    {
+      "name": "SECURITY",
+      "type": "STRING"
+    },
+    {
+      "name": "BUY_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "INCREMENTS_PER_SECURITY",
+      "type": "LONG"
+    },
+    {
+      "name": "INCREMENTS_PER_BUYER",
+      "type": "LONG"
+    },
+    {
+      "name": "AVG_PRICE_GROWTH_CONTRIBUTION",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "SELL_CLIENT",
+      "type": "STRING"
+    },
+    {
+      "name": "SELL_QTY",
+      "type": "LONG"
+    },
+    {
+      "name": "SELL_VALUE",
+      "type": "DOUBLE"
+    }
+  ]
+}
