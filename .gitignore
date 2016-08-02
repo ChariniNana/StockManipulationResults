@@ -7,3 +7,8 @@
 /.externalToolBuilders
 /out
 /.idea
+
+module_stockmanipulationresults.xml
+StockManipulationResults.iml
+stockmanipulationresults.properties
+stockmanipulationresults.xml
